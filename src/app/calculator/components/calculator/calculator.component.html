@@ -1,0 +1,38 @@
+ <div class="w-screen h-40 bg-gradient-to-b from-gray-800 to-gray-700 flex items-end text-right" style="max-width: 300px;">
+            <div class="w-full py-5 px-6 text-6xl text-white font-thin">
+                <span class="text-4xl">5+1</span> <br>
+                <span>340.0</span>
+            </div>
+        </div>
+        <div class="w-full bg-gradient-to-b from-indigo-400 to-indigo-500">
+            <div class="flex w-full">
+                <app-calculator-botton>C</app-calculator-botton>
+                <app-calculator-botton>+/-</app-calculator-botton>
+                <app-calculator-botton>%</app-calculator-botton>
+                <app-calculator-botton isCommand>÷</app-calculator-botton>
+            </div>
+            <div class="flex w-full">
+                <app-calculator-botton isNumber>7</app-calculator-botton>
+                <app-calculator-botton isNumber>8</app-calculator-botton>
+                <app-calculator-botton isNumber>9</app-calculator-botton>
+                <app-calculator-botton isCommand>⨉</app-calculator-botton>
+            </div>
+            <div class="flex w-full">
+                <app-calculator-botton isNumber>4</app-calculator-botton>
+                <app-calculator-botton isNumber>5</app-calculator-botton>
+                <app-calculator-botton isNumber>6</app-calculator-botton>
+                <app-calculator-botton isCommand>-</app-calculator-botton>
+            </div>
+            <div class="flex w-full">
+                <app-calculator-botton isNumber>1</app-calculator-botton>
+                <app-calculator-botton isNumber>2</app-calculator-botton>
+                <app-calculator-botton isNumber>3</app-calculator-botton>
+                <app-calculator-botton isCommand>+</app-calculator-botton>
+            </div>
+            <div class="flex w-full">
+                <!-- El botón '0' es más ancho, así que lo manejamos con una clase en el host -->
+                <app-calculator-botton isNumber>0</app-calculator-botton>
+                <app-calculator-botton>.</app-calculator-botton>
+                <app-calculator-botton isCommand  class="w-2/4">=</app-calculator-botton>
+            </div>
+        </div>
