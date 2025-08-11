@@ -1,8 +1,9 @@
 
-.is-command{
-    @apply bg-indigo-700 bg-opacity-20;
+.is-command {
+  background-color: rgba(67, 56, 202, 0.2); /* bg-indigo-700 + opacity-20 */
 }
-.is-pressed{
-    @apply bg-indigo-800 bg-opacity-20;
+
+.is-pressed {
+  background-color: rgba(49, 42, 143, 0.2); /* bg-indigo-800 + opacity-20 */
+  transition: background-color 0.15s ease-in-out;
 }
- 
