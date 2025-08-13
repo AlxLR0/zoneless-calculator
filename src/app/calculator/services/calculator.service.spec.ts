@@ -19,5 +19,14 @@ describe('CalculatorService', () => {
         expect(service.lastOperator()).toBe('+');
     });
 
+    it('should set textresult, subresultext to 0 when C is pressed',()=>{
+        service.construcNumber('C');
+        expect(service.resultText()).toBe('0');
+        expect(service.subResultText()).toBe('0');
+        expect(service.lastOperator()).toBe('+');
+    });
+
+    
+
 
 });
